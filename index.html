@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Mohamed Tamer" />
+
+    <!-- Favicon & Title -->
+    <link
+      rel="shortcut icon"
+      href="./shopping-cart-favicon.ico"
+      type="image/x-icon" />
+    <title>Fresh Cart</title>
+
+    <!-- Preloading Local Font Family -->
+    <style>
+      @font-face {
+        font-family: "satoshi";
+        src: url("./fonts/Satoshi-Bold.woff2") format("woff2"),
+          url("./fonts/Satoshi-Bold.woff") format("woff");
+        font-weight: 700;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "satoshi";
+        src: url("./fonts/Satoshi-Regular.woff2") format("woff2"),
+          url("./fonts/Satoshi-Regular.woff") format("woff");
+        font-weight: 400;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "intergeral cf";
+        src: url("./fonts/intergeralCf-bold.woff2") format("woff2"),
+          url("./fonts/intergeralCf-bold.woff2") format("woff");
+        font-weight: 700;
+        font-display: swap;
+      }
+      body {
+        font-family: "satoshi", system-ui;
+      }
+      h1,
+      h2,
+      h3 {
+        font-family: "intergeral cf", system-ui;
+        font-weight: 700;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
